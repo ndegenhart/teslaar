@@ -48,7 +48,7 @@ public class swipe_handler : MonoBehaviour
                 {
                     if(a != i)
                     {
-                        transform.GetChild(a).localScale = Vector2.Lerp(transform.GetChild(a).localScale, new Vector2(0.8f, 0.8f), 0.1f);
+                        transform.GetChild(a).localScale = Vector2.Lerp(transform.GetChild(a).localScale, new Vector2(0.9f, 0.9f), 0.1f);
                     }
                 }
             }
