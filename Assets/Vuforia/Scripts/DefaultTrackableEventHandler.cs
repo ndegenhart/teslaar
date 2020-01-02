@@ -17,6 +17,11 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
+    public Transform Marker_active;
+    public Transform Marker_deactive;
+    public Transform Info_active;
+    public Transform Info_deactive;
+    public Transform Panel_active;
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -102,6 +107,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Enable canvas':
             foreach (var component in canvasComponents)
                 component.enabled = true;
+
+            Marker_active.gameObject.SetActive(true);
+            Marker_deactive.gameObject.SetActive(false);
+            Info_active.gameObject.SetActive(true);
+            Info_deactive.gameObject.SetActive(false);
+            Panel_active.gameObject.SetActive(true);
         }
     }
 
@@ -125,6 +136,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             // Disable canvas':
             foreach (var component in canvasComponents)
                 component.enabled = false;
+
+            Marker_active.gameObject.SetActive(false);
+            Marker_deactive.gameObject.SetActive(true);
+            Info_active.gameObject.SetActive(false);
+            Info_deactive.gameObject.SetActive(true);
+            Panel_active.gameObject.SetActive(false);
         }
     }
 
