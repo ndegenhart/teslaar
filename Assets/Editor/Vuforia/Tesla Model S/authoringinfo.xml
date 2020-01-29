@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="8.5.8">
+<ModelTarget name="Tesla Model S" targetId="56e01f2d8f39421ebeac14fe8a01bc03" version="11.1" toolVersion="8.5.8" bbox="-0.469964 -0.330608 -1.011497 0.532063 0.326738 1.252413" previewImage="56e01f2d8f39421ebeac14fe8a01bc03_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Tesla Model Ss_assembly" assemblyId="3cda5460e6b347a2af28ee018a175e2a">
+<Part name="Tesla Model S" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.246691 -0.0770099 1.68418" rotation="AD: -0.9940275663352597 -0.15423032126988356 1.0184655501046016 167.994" image="Tesla Model S_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0001" translation="0.157442 -0.0513538 1.60141" rotation="AD: -0.8691459383403556 -0.5161977374777046 3.4087305812131525 175.76" image="Tesla Model S_viewpoint_0001.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0002" translation="0.0377737 -0.0614102 1.63385" rotation="AD: 0.889768664044412 -0.4794948209605273 3.166361533717632 184.643" image="Tesla Model S_viewpoint_0002.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0003" translation="0.00735439 -0.0971227 1.74906" rotation="AD: 0.9948311874839175 -0.1470364120088013 0.9709603079922574 192.302" image="Tesla Model S_viewpoint_0003.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0004" translation="0.0966034 -0.122779 1.83183" rotation="AD: 0.9999555178056204 -0.03861038472688569 0.25496508336909474 196.684" image="Tesla Model S_viewpoint_0004.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0005" translation="0.216272 -0.112722 1.79939" rotation="AD: 0.9999352280543197 0.04255120806092697 -0.28098845394708816 196.575" image="Tesla Model S_viewpoint_0005.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0006" translation="0.0301261 -0.0231913 2.08694" rotation="AD: 0.9999999999991575 -0.00034034182900861927 0.003829176077801881 190.158" image="Tesla Model S_viewpoint_0006.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0007" translation="-0.0303967 0.0111746 1.84836" rotation="AD: -0.04973514106698172 -1.0002458743403342 18.368158026464812 179.983" image="Tesla Model S_viewpoint_0007.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0008" translation="-0.0922885 0.018975 1.88724" rotation="AD: 0.9279404948078118 -0.3923072297751829 3.0891379883614603 184.154" image="Tesla Model S_viewpoint_0008.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="viewpoint_0009" translation="0.0943572 -0.0112764 2.04878" rotation="AD: 0.9999851947334317 0.01818632384334479 -0.3141482674755925 186.321" image="Tesla Model S_viewpoint_0009.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

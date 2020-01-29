@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="frame_marker_gray" size="1.000000 1.001011" />
+    <ImageTarget name="marker_gangwahl" size="0.500000 0.371571" />
+    <ImageTarget name="IMG_5844" size="2.000000 3.162363" />
+    <ImageTarget name="right" size="5.000000 3.750775" />
+    <ImageTarget name="front_right" size="5.000000 3.750775" />
+    <ImageTarget name="back_right" size="5.000000 3.750775" />
+    <ImageTarget name="IMG_20200110_111701" size="1.000000 0.403063" />
+  </Tracking>
+</QCARConfig>

@@ -17,8 +17,8 @@ MonoBehaviour:
     ufoLicenseKey: QWV1WFZyMy8vLy8vQUFBQUtER0pZME1LLzBUc3RodXVXKzYxWSt0dkNpcVVEUnJqNGxCVndaVlY4WjZGalZKbTZNS1VxNEZ6ZncrYzBKTUJOVlA1bjRhUDhYTGpib0xBb1NPNStSVlJRZ2k5VVVaRE03cHZJb3U2ZW5nOS9TMDBBRUZYKzdnWkV6ZDZpTlNvdmtHZTRsaWlDTHdMQzAyTE5ncHNkQ1FFYzk5dWhWeXJYSjBNajIvMm92S2ptVzNpRlFQK25sMzZzaDRJV0pxWXVVSnRMMlFpdm9aaVZNWUwrTUFvaFNWRHVPNzhlM3BFeUFmc2FjWk5MRGdRUmpWR04vSUIzSXROMzRHMGF3b3kweE1tQU1HSWVEWnQ2ZXdpYnQzZ3lrOTdwSnFpZ3BUcVFaTUhoeFdSb3huWlVTNHpYTWEzV1Y4MFhZbHUyMHJ3LzY2eUVETDBVSDQyd0xVdTRDSGJFaGxsTFBraVFtYVVNNktHVmdmbXRpZWY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 2
+    maxSimultaneousObjectTargets: 2
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 8.3.8
@@ -56,7 +56,7 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    arcoreRequirement: 0
+    arcoreRequirement: 1
     trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
