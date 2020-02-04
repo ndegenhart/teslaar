@@ -142,8 +142,6 @@ public class GangwahlVuforia : MonoBehaviour, ITrackableEventHandler
 
             Marker_active.gameObject.SetActive(false);
             Marker_deactive.gameObject.SetActive(true);
-            pfeilnachoben.gameObject.SetActive(false);
-
         }
     }
 
