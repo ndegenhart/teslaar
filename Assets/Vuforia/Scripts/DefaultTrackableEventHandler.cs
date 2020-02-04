@@ -22,6 +22,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     public Transform Info_active;
     public Transform Info_deactive;
     public Transform Panel_active;
+    public Transform Introduction_status;
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -108,11 +109,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             foreach (var component in canvasComponents)
                 component.enabled = true;
 
-            Marker_active.gameObject.SetActive(true);
-            Marker_deactive.gameObject.SetActive(false);
-            Info_active.gameObject.SetActive(true);
-            Info_deactive.gameObject.SetActive(false);
-            Panel_active.gameObject.SetActive(true);
+            if (Panel_active.gameObject.activeSelf == false && Introduction_status.gameObject.activeSelf == false)
+            {
+                Marker_active.gameObject.SetActive(true);
+                Marker_deactive.gameObject.SetActive(false);
+                Info_active.gameObject.SetActive(true);
+                Info_deactive.gameObject.SetActive(false);
+                Panel_active.gameObject.SetActive(true);
+            }
+                
         }
     }
 
@@ -138,10 +143,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                 component.enabled = false;
 
             Marker_active.gameObject.SetActive(false);
-            Marker_deactive.gameObject.SetActive(true);
-            Info_active.gameObject.SetActive(false);
-            Info_deactive.gameObject.SetActive(true);
-            Panel_active.gameObject.SetActive(false);
+            Marker_deactive.gameObject.SetActive(true);            
         }
     }
 

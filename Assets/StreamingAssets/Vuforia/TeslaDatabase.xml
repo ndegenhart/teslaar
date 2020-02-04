@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="center_screen_map" size="0.500000 0.794479" />
+    <ImageTarget name="center_screen_tesla" size="0.500000 0.809438" />
+    <ImageTarget name="cluster_screen" size="0.400000 0.144661" />
+    <ImageTarget name="logo_tracker" size="1.500000 0.448229" />
+    <ImageTarget name="marker_gangwahl" size="0.500000 0.371571" />
+  </Tracking>
+</QCARConfig>
