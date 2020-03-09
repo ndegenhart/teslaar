@@ -22,6 +22,7 @@ public class CenterDisplay : MonoBehaviour, ITrackableEventHandler
     public Transform Info_active;
     public Transform Info_deactive;
     public Transform Introduction_status;
+    public Transform achivment_disable;
 
     #region PROTECTED_MEMBER_VARIABLES
 
@@ -115,7 +116,8 @@ public class CenterDisplay : MonoBehaviour, ITrackableEventHandler
                 Info_active.gameObject.SetActive(true);
                 Info_deactive.gameObject.SetActive(false);
                 Introduction_status.gameObject.SetActive(true);
-            
+                achivment_disable.gameObject.SetActive(false);
+
 
         }
     }

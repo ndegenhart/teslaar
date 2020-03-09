@@ -115,9 +115,18 @@ public class CenterDisplayVuforia : MonoBehaviour, ITrackableEventHandler
                 Marker_deactive.gameObject.SetActive(false);
                 Info_active.gameObject.SetActive(true);
                 Info_deactive.gameObject.SetActive(false);
-                
+                GameObject.Find("VideoPlayerCluster").GetComponent<UnityEngine.Video.VideoPlayer>().Play();
             }
-            GameObject.Find("VideoPlayerCluster").GetComponent<UnityEngine.Video.VideoPlayer>().Play();
+            else
+            {
+                Marker_active.gameObject.SetActive(true);
+                Marker_deactive.gameObject.SetActive(false);
+                Info_active.gameObject.SetActive(true);
+                Info_deactive.gameObject.SetActive(false);
+                Introduction_status.gameObject.SetActive(false);
+                GameObject.Find("VideoPlayerCluster").GetComponent<UnityEngine.Video.VideoPlayer>().Play();
+            }
+            
 
         }
     }

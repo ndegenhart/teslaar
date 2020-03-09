@@ -117,6 +117,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                 Info_deactive.gameObject.SetActive(false);
                 Panel_active.gameObject.SetActive(true);
             }
+            else
+            {
+                Marker_active.gameObject.SetActive(true);
+                Marker_deactive.gameObject.SetActive(false);
+                Info_active.gameObject.SetActive(true);
+                Info_deactive.gameObject.SetActive(false);
+                Panel_active.gameObject.SetActive(true);
+                Introduction_status.gameObject.SetActive(false);
+            }
                 
         }
     }
